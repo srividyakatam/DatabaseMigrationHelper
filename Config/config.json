@@ -1,0 +1,13 @@
+{
+    "rootFolder": "C:\\Users\\katam\\Documents\\3-Python\\MicrosoftSQLServerSamples\\sql-server-samples\\samples\\databases\\wide-world-importers\\wwi-ssdt\\wwi-ssdt\\Application",
+    "tablesFolder": "Tables",
+    "proceduresFolder": "Stored Procedures",
+    "functionsFolder": "Functions",
+    "viewsFolder": "Views",
+    "destinationPath": "C:\\Users\\katam\\Documents\\3-Python\\DatabaseExplorer\\OutputFile",
+    "outputFileName":"WWI_Application.xlsx",
+    "runTableAnalysis": 1,
+    "runProcedureAnalysis": 1,
+    "runViewsAnalysis": 1,
+    "runFunctionAnalysis": 1
+}
