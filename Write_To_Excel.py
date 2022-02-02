@@ -15,7 +15,9 @@ def write_to_excel(table_info=None, procedure_info=None, views_info=None,functio
         v_info = pd.DataFrame(data=views_info)
     if function_info is not None:
         func_info = pd.DataFrame(data=function_info)
-    with pd.ExcelWriter(program_config["outputFileName"]) as writer:
+
+    output_file_location = program_config["destinationPath"] + "\\" + program_config["outputFileName"]
+    with pd.ExcelWriter(output_file_location) as writer:
         tab_info.to_excel(writer, sheet_name='tables', index=False)
         prc_info.to_excel(writer, sheet_name='procedures', index=False)
         v_info.to_excel(writer, sheet_name='views', index=False)
